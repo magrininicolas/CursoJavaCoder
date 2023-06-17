@@ -8,8 +8,22 @@
 
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-    <class>modelo.User</class>
-    <class>modelo.Product</class>
+    <mapping-file>META-INF/selects.xml</mapping-file>
+
+    <class>modelo.basico.User</class>
+    <class>modelo.basico.Product</class>
+    <class>modelo.umPraUm.Client</class>
+    <class>modelo.umPraUm.Seat</class>
+    <class>modelo.umPraMuitos.OrderItens</class>
+    <class>modelo.umPraMuitos.OrderTable</class>
+    <class>modelo.muitosPraMuitos.Nephew</class>
+    <class>modelo.muitosPraMuitos.Uncle</class>
+    <class>modelo.muitosPraMuitos.Actor</class>
+    <class>modelo.muitosPraMuitos.Movie</class>
+    <class>modelo.composition.Adress</class>
+    <class>modelo.composition.Employee</class>
+    <class>modelo.composition.SupplierE</class>
+    
 
 		<properties>
 
@@ -17,7 +31,7 @@
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/curso_Java"/> 
       <property name="javax.persistence.jdbc.user" value="root"/> 
-      <property name="javax.persistence.jdbc.password" value="senha"/>
+      <property name="javax.persistence.jdbc.password" value="nicolas0708!"/>
       <property name="javax.persistence.schema-generation.database.action" value="update"/> 
       <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect" />
       <property name="hibernate.show_sql" value = "true" /> 

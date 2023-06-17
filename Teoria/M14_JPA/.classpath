@@ -26,5 +26,8 @@
 	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.48.jar"/>
 	<classpathentry kind="lib" path="libs/stax-ex-1.8.jar"/>
 	<classpathentry kind="lib" path="libs/txw2-2.3.1.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-api-2.20.0.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-core-2.20.0.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-slf4j-impl-2.20.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
