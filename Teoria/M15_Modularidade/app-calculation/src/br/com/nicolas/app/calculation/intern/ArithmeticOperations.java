@@ -1,4 +1,4 @@
-package br.com.nicolas.app.calculator.intern;
+package br.com.nicolas.app.calculation.intern;
 
 import java.util.Arrays;
 

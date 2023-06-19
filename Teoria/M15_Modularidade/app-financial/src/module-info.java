@@ -1,3 +1,4 @@
 module app.financial {
-  requires app.calculation;
+  requires app.api;
+  uses br.com.nicolas.app.Calculator;
 }
