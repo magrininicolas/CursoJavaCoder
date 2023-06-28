@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.nicolas.springcursojava.models.Address;
-import com.nicolas.springcursojava.models.Person;
+import com.nicolas.springcursojava.model.entities.Address;
+import com.nicolas.springcursojava.model.entities.Person;
 
 @RestController
 @RequestMapping("/person")

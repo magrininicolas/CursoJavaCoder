@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.nicolas.springcursojava.models.Client;
+import com.nicolas.springcursojava.model.entities.Client;
 
 @RestController
 @RequestMapping("/clients")
@@ -23,7 +23,7 @@ public class ClientController {
   }
 
   @GetMapping
-  public Client getClientByIdSecurity(@RequestParam(name = "id") Long id) {
+  public Client getClientByIdSecurity(@RequestParam Long id) {
     return new Client(id, "Luzia", "225.902.248-00");
   }
 }

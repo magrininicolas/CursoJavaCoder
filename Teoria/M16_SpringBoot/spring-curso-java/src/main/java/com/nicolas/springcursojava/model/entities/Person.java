@@ -1,4 +1,4 @@
-package com.nicolas.springcursojava.models;
+package com.nicolas.springcursojava.model.entities;
 
 import java.time.LocalDate;
 import java.util.List;

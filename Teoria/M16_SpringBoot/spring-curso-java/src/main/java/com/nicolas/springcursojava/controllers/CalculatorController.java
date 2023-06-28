@@ -17,7 +17,7 @@ public class CalculatorController {
   }
   
   @GetMapping("/sum2")
-  public Integer sum2(@RequestParam(name = "nums") Integer... nums) {
+  public Integer sum2(@RequestParam Integer... nums) {
     return Arrays.stream(nums).reduce(0, (t, a) -> t + a);
   }
 
@@ -27,7 +27,7 @@ public class CalculatorController {
   }
 
   @GetMapping("/subtract2")
-  public Integer subtract2(@RequestParam(name = "nums") Integer... nums) {
+  public Integer subtract2(@RequestParam Integer... nums) {
     return Arrays.stream(nums).reduce(0, (t, a) -> t - a);
   }
 }

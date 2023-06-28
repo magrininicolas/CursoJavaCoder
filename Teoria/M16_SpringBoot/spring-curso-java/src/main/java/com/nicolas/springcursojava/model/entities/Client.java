@@ -1,4 +1,4 @@
-package com.nicolas.springcursojava.models;
+package com.nicolas.springcursojava.model.entities;
 
 public class Client {
   
